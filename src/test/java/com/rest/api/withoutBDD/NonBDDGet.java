@@ -66,7 +66,7 @@ public class NonBDDGet {
 		Assert.assertEquals(response.getHeader("Server"), "nginx");
 		
 		
-		JsonPath js = response.jsonPath();
+			JsonPath js = response.jsonPath();
 		System.out.println(js.getString("_meta"));
 	     String s1 = js.getString("_meta.totalCount");
 		
