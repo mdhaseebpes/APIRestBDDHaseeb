@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="com.rest.api.get.getAPI" />
+            <class name="com.rest.api.get.PostAPI" />
+            <class name="com.rest.api.get.PostAPIwithPOJO" />
+            <class name="com.rest.api.get.PutAPITest" />
+            <class name="com.rest.api.post.ComplexJsonParse" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
